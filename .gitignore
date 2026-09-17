@@ -1,4 +1,4 @@
 .venv/
 __pycache__/
 *.pyc
-expense_data.json
+expenses_data.json

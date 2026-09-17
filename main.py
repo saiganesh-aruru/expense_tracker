@@ -19,8 +19,8 @@ def add_expense(expenses, next_id):
         print("Invalid input. Enter a valid amount")
         return next_id
     
-    if amount < 0:
-        print("Amount cannot be negative. Enter a valid amount")
+    if amount <= 0:
+        print("Amount cannot be zero or negative. Enter a valid amount")
         return next_id
 
     expenses.append(Expense(next_id, name, amount))
