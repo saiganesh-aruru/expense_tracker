@@ -1,1 +1,5 @@
 requests==2.34.2
+fastapi==0.141.1
+uvicorn
+pytest==9.1.1
+httpx2
